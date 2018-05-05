@@ -25,6 +25,7 @@ Vue.prototype.$eventHub = EventBus;
 new Vue({
   el: '#app',
   router,
+  store,
   components: { App },
   template: '<App/>'
 });
